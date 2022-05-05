@@ -1,9 +1,9 @@
 {
-  "Version": 77,
+  "Version": 78,
   "Individuals": [
     {
       "Name": "Furukori1998",
-      "Seed": -1353104109,
+      "Seed": 101891578,
       "OriginData": {
         "CalculationMethods": [
           "SurfaceAreaPlsInt_VAR1",
@@ -23,1052 +23,242 @@
       },
       "Parameters": [
         {
+          "Path": "CYP2B6|Reference concentration",
+          "Value": 1.56,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2B6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2B6|t1/2 (liver)",
+          "Value": 32.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0021211129296
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0063502454992
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.00094468085106
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.1043535188
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
           "Path": "Organism|Liver|EHC continuous fraction",
           "Value": 1.0,
           "ValueOrigin": {
             "Source": "Unknown"
           }
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2B6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|UGT2B7|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2B6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|UGT2B7|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.5970540098
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0354468085
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "UGT2B7|Reference concentration",
+          "Value": 3.372,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Ohtsuki et al. 2011"
+          }
+        },
+        {
+          "Path": "UGT2B7|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT2B7|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
         }
       ],
       "Molecules": [
         {
           "Name": "CYP3A4",
           "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.0041682898325
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.00078691079081
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0053603428126
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.00042695753798
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0727697702
-            }
-          ],
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
           "Ontogeny": {
             "Name": "CYP3A4"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 4.32,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "AADAC",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "BloodCells",
-              "Value": 3.9102564103E-05
-            },
-            {
-              "Name": "Plasma",
-              "Value": 3.9102564103E-05
-            },
-            {
-              "Name": "Bone",
-              "Value": 4.8717948718E-05
-            },
-            {
-              "Name": "Brain",
-              "Value": 3.9743589744E-05
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.0011923076923
-            },
-            {
-              "Name": "Heart",
-              "Value": 0.0026602564103
-            },
-            {
-              "Name": "Kidney",
-              "Value": 5.7051282051E-05
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0269230769
-            },
-            {
-              "Name": "Muscle",
-              "Value": 0.00020833333333
-            },
-            {
-              "Name": "Pancreas",
-              "Value": 0.1474358974
-            },
-            {
-              "Name": "Spleen",
-              "Value": 0.00037115384615
-            },
-            {
-              "Name": "Stomach",
-              "Value": 0.0775641026
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LargeIntestine",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "ColonAscendens",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonTransversum",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonDescendens",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonSigmoid",
-              "Value": 0.00010384615385
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "ABCB1",
-          "Type": "Transporter",
-          "TransportType": "Efflux",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0341950646
-            },
-            {
-              "Name": "Brain",
-              "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.1072855464
-            },
-            {
-              "Name": "Gonads",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.024559342
-            },
-            {
-              "Name": "Heart",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.059106933
-            },
-            {
-              "Name": "Kidney",
-              "MembraneLocation": "Apical",
-              "Value": 1.0
-            },
-            {
-              "Name": "Periportal",
-              "MembraneLocation": "Apical",
-              "Value": 0.2702702703
-            },
-            {
-              "Name": "Pericentral",
-              "MembraneLocation": "Apical",
-              "Value": 0.2702702703
-            },
-            {
-              "Name": "Lung",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0927144536
-            },
-            {
-              "Name": "Muscle",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0180963572
-            },
-            {
-              "Name": "Pancreas",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0200940071
-            },
-            {
-              "Name": "Spleen",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.1047003525
-            },
-            {
-              "Name": "Stomach",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0367802585
-            },
-            {
-              "Name": "SmallIntestine",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "LargeIntestine",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "Duodenum",
-              "MembraneLocation": "Apical",
-              "Value": 1.41
-            },
-            {
-              "Name": "UpperJejunum",
-              "MembraneLocation": "Apical",
-              "Value": 1.41
-            },
-            {
-              "Name": "LowerJejunum",
-              "MembraneLocation": "Apical",
-              "Value": 1.41
-            },
-            {
-              "Name": "UpperIleum",
-              "MembraneLocation": "Apical",
-              "Value": 1.41
-            },
-            {
-              "Name": "LowerIleum",
-              "MembraneLocation": "Apical",
-              "Value": 1.41
-            },
-            {
-              "Name": "ColonAscendens",
-              "MembraneLocation": "Apical",
-              "Value": 0.56
-            },
-            {
-              "Name": "ColonTransversum",
-              "MembraneLocation": "Apical",
-              "Value": 0.56
-            },
-            {
-              "Name": "ColonDescendens",
-              "MembraneLocation": "Apical",
-              "Value": 0.56
-            },
-            {
-              "Name": "ColonSigmoid",
-              "MembraneLocation": "Apical",
-              "Value": 0.56
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.41,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "OATP1B1",
-          "Type": "Transporter",
-          "TransportType": "Influx",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.00014166666667
-            },
-            {
-              "Name": "Gonads",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0141666667
-            },
-            {
-              "Name": "Heart",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0008253968254
-            },
-            {
-              "Name": "Periportal",
-              "MembraneLocation": "Basolateral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "MembraneLocation": "Basolateral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "MembraneLocation": "Basolateral",
-              "Value": 4.0079365079E-05
-            },
-            {
-              "Name": "Muscle",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.00064682539683
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "OATP1B3",
-          "Type": "Transporter",
-          "TransportType": "Influx",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0326065214
-            },
-            {
-              "Name": "Brain",
-              "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.026415244
-            },
-            {
-              "Name": "Gonads",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.041669701
-            },
-            {
-              "Name": "Heart",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0574843621
-            },
-            {
-              "Name": "Kidney",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0249619939
-            },
-            {
-              "Name": "Periportal",
-              "MembraneLocation": "Basolateral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "MembraneLocation": "Basolateral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0227975502
-            },
-            {
-              "Name": "Muscle",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0151497833
-            },
-            {
-              "Name": "Pancreas",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0094097200792
-            },
-            {
-              "Name": "Skin",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0107729681
-            },
-            {
-              "Name": "Spleen",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0113959291
-            },
-            {
-              "Name": "Stomach",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0102007599
-            },
-            {
-              "Name": "SmallIntestine",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0194716112
-            },
-            {
-              "Name": "LargeIntestine",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0081029350428
-            },
-            {
-              "Name": "Duodenum",
-              "MembraneLocation": "Apical",
-              "Value": 0.0194716112
-            },
-            {
-              "Name": "UpperJejunum",
-              "MembraneLocation": "Apical",
-              "Value": 0.0194716112
-            },
-            {
-              "Name": "LowerJejunum",
-              "MembraneLocation": "Apical",
-              "Value": 0.0194716112
-            },
-            {
-              "Name": "UpperIleum",
-              "MembraneLocation": "Apical",
-              "Value": 0.0194716112
-            },
-            {
-              "Name": "LowerIleum",
-              "MembraneLocation": "Apical",
-              "Value": 0.0194716112
-            },
-            {
-              "Name": "ColonAscendens",
-              "MembraneLocation": "Apical",
-              "Value": 0.0081029350428
-            },
-            {
-              "Name": "ColonTransversum",
-              "MembraneLocation": "Apical",
-              "Value": 0.0081029350428
-            },
-            {
-              "Name": "ColonDescendens",
-              "MembraneLocation": "Apical",
-              "Value": 0.0081029350428
-            },
-            {
-              "Name": "ColonSigmoid",
-              "MembraneLocation": "Apical",
-              "Value": 0.0081029350428
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "ATP1A2",
-          "Type": "OtherProtein",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "ExtracellularMembrane",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "Value": 0.0062154033171
-            },
-            {
-              "Name": "Brain",
-              "Value": 1.0
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.0508741242
-            },
-            {
-              "Name": "Heart",
-              "Value": 0.3179118843
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0158938619
-            },
-            {
-              "Name": "Periportal",
-              "Value": 0.0223784807
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 0.0223784807
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0272345453
-            },
-            {
-              "Name": "Muscle",
-              "Value": 0.7034193524
-            },
-            {
-              "Name": "Pancreas",
-              "Value": 0.0073903254795
-            },
-            {
-              "Name": "Skin",
-              "Value": 0.0389467988
-            },
-            {
-              "Name": "Spleen",
-              "Value": 0.0103243118
-            },
-            {
-              "Name": "Stomach",
-              "Value": 0.0309435884
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0501579923
-            },
-            {
-              "Name": "LargeIntestine",
-              "Value": 0.0786998764
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0501579923
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0501579923
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0501579923
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0501579923
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0501579923
-            },
-            {
-              "Name": "ColonAscendens",
-              "Value": 0.0786998764
-            },
-            {
-              "Name": "ColonTransversum",
-              "Value": 0.0786998764
-            },
-            {
-              "Name": "ColonDescendens",
-              "Value": 0.0786998764
-            },
-            {
-              "Name": "ColonSigmoid",
-              "Value": 0.0786998764
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 0.47661714,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "CYP2C8",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.00041051218109
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.0138116248
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0012660656052
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.00092269326683
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0031843468252
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0031843468252
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0031843468252
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0031843468252
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0031843468252
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0031843468252
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP2C8"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 2.56,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 23.000001425,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "UGT2B7",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.0792387223
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.1305041205
-            },
-            {
-              "Name": "Kidney",
-              "Value": 1.0
-            },
-            {
-              "Name": "Periportal",
-              "Value": 0.2346862128
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 0.2346862128
-            },
-            {
-              "Name": "Skin",
-              "Value": 0.0308645644
-            },
-            {
-              "Name": "Stomach",
-              "Value": 0.1271028503
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0395483736
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0395483736
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0395483736
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0395483736
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0395483736
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0395483736
-            }
-          ],
-          "Ontogeny": {
-            "Name": "UGT2B7"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 2.78,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "Achour et al 2014"
-              }
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "EPHX1",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "BloodCells",
-              "Value": 0.0059481037924
-            },
-            {
-              "Name": "Plasma",
-              "Value": 0.0059481037924
-            },
-            {
-              "Name": "Bone",
-              "Value": 0.0177045908
-            },
-            {
-              "Name": "Brain",
-              "Value": 0.0449101796
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.1798403194
-            },
-            {
-              "Name": "Heart",
-              "Value": 0.1165668663
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.1467065868
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.1397205589
-            },
-            {
-              "Name": "Muscle",
-              "Value": 0.3572854291
-            },
-            {
-              "Name": "Pancreas",
-              "Value": 0.1007984032
-            },
-            {
-              "Name": "Spleen",
-              "Value": 0.0570858283
-            },
-            {
-              "Name": "Stomach",
-              "Value": 0.048502994
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0636726547
-            },
-            {
-              "Name": "LargeIntestine",
-              "Value": 0.0403193613
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0636726547
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0636726547
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0636726547
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0636726547
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0636726547
-            },
-            {
-              "Name": "ColonAscendens",
-              "Value": 0.0403193613
-            },
-            {
-              "Name": "ColonTransversum",
-              "Value": 0.0403193613
-            },
-            {
-              "Name": "ColonDescendens",
-              "Value": 0.0403193613
-            },
-            {
-              "Name": "ColonSigmoid",
-              "Value": 0.0403193613
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
+          }
         },
         {
           "Name": "CYP2B6",
           "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.0021211129296
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.0063502454992
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.1043535188
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.5970540098
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0703109656
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0703109656
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0703109656
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0703109656
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0703109656
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0703109656
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.56,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 32.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+        },
+        {
+          "Name": "UGT2B7",
+          "Type": "Enzyme",
+          "Localization": "Intracellular",
+          "Ontogeny": {
+            "Name": "UGT2B7"
+          }
         }
       ]
     }
@@ -1080,126 +270,16 @@
       "PlasmaProteinBindingPartner": "Albumin",
       "Lipophilicity": [
         {
-          "Name": "Dal Pozzo 1989",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.45,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "logP"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "AlogPS",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.1,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Internet",
-                "Description": "logP"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "ChemAxon",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.77,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Internet",
-                "Description": "logP"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Annaert 2010",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.77,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "logD (6.5)"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Clarysse 2011",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.77,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "logD (6.5)"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Heikkilä 2011",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.77,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "logD (6.5)"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Winiwarter 1998",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.45,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "logP, logD(7.4)"
-              }
-            }
-          ]
-        },
-        {
           "Name": "Optimized",
           "Parameters": [
             {
               "Name": "Lipophilicity",
-              "Value": 2.0,
+              "Value": 2.0067753065,
               "Unit": "Log Units",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from '2020-10-30_refit_no2C8-induction_CYP3A4-metabolism_EPHX1_' on 2020-11-04 10:58"
+                "Description": "Value updated from '001-5-3_CYP3A4_MM-kinetics_WithoutTablet' on 2022-02-21 16:49"
               }
             }
           ]
@@ -1207,69 +287,16 @@
       ],
       "FractionUnbound": [
         {
-          "Name": "DrugBank, FDA label",
-          "IsDefault": false,
+          "Name": "Morselli 1975",
           "Species": "Human",
           "Parameters": [
             {
               "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 24.0,
-              "Unit": "%"
-            }
-          ]
-        },
-        {
-          "Name": "Bertisson 1978",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 25.0,
-              "Unit": "%"
-            }
-          ]
-        },
-        {
-          "Name": "Johannessen and Strandjord 1972",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 21.0,
-              "Unit": "%"
-            }
-          ]
-        },
-        {
-          "Name": "Pynnönen 1977",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 25.0,
-              "Unit": "%",
+              "Value": 0.243,
               "ValueOrigin": {
                 "Source": "Publication",
-                "Method": "InVivo",
-                "Description": "determined froom saliva concentration"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Optimized",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 25.0,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Other",
-                "Method": "Assumption"
+                "Method": "InVitro",
+                "Description": "Morselli 1975"
               }
             }
           ]
@@ -1277,395 +304,116 @@
       ],
       "Solubility": [
         {
-          "Name": "DrugBank",
-          "IsDefault": false,
+          "Name": "IR tablet (FaHIF)",
           "Parameters": [
             {
               "Name": "Solubility at reference pH",
-              "Value": 17.7,
+              "Value": 308.3333,
               "Unit": "mg/l",
               "ValueOrigin": {
-                "Source": "Internet",
-                "Method": "Assumption",
-                "Description": "assumed water solubility"
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "Mean value of the following FaHIF solubility data reported in the literature: 336 µg/mL, pH 6.2 (Annaert 2010); 283 µg/mL, pH 7.0 (Söderlind 2010); 306 mg/mL, pH 6.9 (Clarysse 2011)"
               }
             },
             {
               "Name": "Reference pH",
-              "Value": 7.0,
+              "Value": 6.7,
               "ValueOrigin": {
-                "Source": "Internet",
-                "Method": "Assumption",
-                "Description": "assumed water solubility"
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "Mean value of the following FaHIF solubility data reported in the literature: 336 µg/mL, pH 6.2 (Annaert 2010); 283 µg/mL, pH 7.0 (Söderlind 2010); 306 mg/mL, pH 6.9 (Clarysse 2011)"
               }
             }
           ]
         },
         {
-          "Name": "Annaert 2010 - FaHIF",
+          "Name": "XR tablet (fitted)",
           "IsDefault": false,
           "Parameters": [
             {
               "Name": "Solubility at reference pH",
-              "Value": 336.0,
-              "Unit": "µg/ml",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "FaHIF (pH 5.4-7.1)"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.2,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "FaHIF (pH 5.4-7.1)"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Annaert 2010 - FaSSIF",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 255.2,
-              "Unit": "µg/ml",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "FaSSIF (pH = ???)"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.5,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "FaSSIF (pH = ???)"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Clarysse 2011 - FaHIF",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 336.0,
-              "Unit": "µg/ml",
+              "Value": 546.0199756643,
+              "Unit": "mg/l",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from '2020-01-14_' on 2020-01-15 09:37"
+                "Description": "Value updated from '004-2_from-003-1_XRtablet_fasted_solubility_FINAL' on 2022-03-24 12:41"
               }
             },
             {
               "Name": "Reference pH",
-              "Value": 6.2,
+              "Value": 6.7,
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from '2020-01-14_' on 2020-01-15 09:37"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Clarysse 2011 - FaSSIF",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 266.0,
-              "Unit": "µg/ml",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "FaSSIF"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.5,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "FaSSIF"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Heikkilä 2011",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 170.0,
-              "Unit": "µg/ml",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "FaHIF (pH 6.2)"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.2,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "FaHIF (pH 6.2)"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Söderlind 2010",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 283.0,
-              "Unit": "µg/ml",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "FaHIF (pH 6.5-7.5)"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 7.0,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "FaHIF (pH 6.5-7.5)"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Söderlind 2010 - FaSSIF",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 236.0,
-              "Unit": "µg/ml",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.5,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Clarysse 2011 - Fed HIF",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 468.0,
-              "Unit": "µg/ml",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "pH = ???"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 7.0,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "pH = ???"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Clarysse 2011 - FeSSIF",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 524.0,
-              "Unit": "µg/ml",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 5.0,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "used in simulation",
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 336.0,
-              "Unit": "µg/ml"
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.2
-            }
-          ]
-        }
-      ],
-      "IntestinalPermeability": [
-        {
-          "Name": "Literature Lennernaes2007",
-          "Parameters": [
-            {
-              "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 0.00043,
-              "Unit": "cm/s",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "Lennernaes2007"
+                "Description": "Value updated from '004-2_from-003-1_XRtablet_fasted_solubility_FINAL' on 2022-03-16 18:25"
               }
             }
           ]
         }
       ],
-      "PkaTypes": [],
+      "PkaTypes": [
+        {
+          "Type": "Acid",
+          "Pka": 11.83,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Tomaszewska 2013"
+          }
+        }
+      ],
       "Processes": [
         {
-          "InternalName": "rCYP450_MM",
-          "DataSource": "Huang et al 2004 - CBZ-E",
-          "Molecule": "CYP3A4",
-          "Metabolite": "Carbamazepine 10,11-epoxide",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/recombinant enzyme",
-              "Value": 1.0,
-              "Unit": "pmol/min/pmol rec. enzyme"
-            },
-            {
-              "Name": "Km",
-              "Value": 248.0,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "Huang2004"
-              }
-            },
-            {
-              "Name": "kcat",
-              "Value": 0.75,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '2020-10-30_refit_no2C8-induction_CYP3A4-metabolism_EPHX1_' on 2020-11-04 10:58"
-              }
-            }
-          ]
-        },
-        {
           "InternalName": "Induction",
-          "DataSource": "mean of literature",
+          "DataSource": "DMPK",
           "Molecule": "CYP3A4",
           "Parameters": [
             {
               "Name": "EC50",
-              "Value": 20.0,
+              "Value": 27.193363407,
               "Unit": "µmol/l",
               "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "mean of literature values"
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '003-1_from002-3-6_EC50' on 2022-02-24 10:23"
               }
             },
             {
               "Name": "Emax",
-              "Value": 6.0,
+              "Value": 5.3929777775,
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '2020-10-30_refit_no2C8-induction_CYP3A4-metabolism_EPHX1_' on 2020-11-04 10:58"
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "DMPK measurement, calibrated with rifampicin"
               }
             }
           ]
         },
         {
           "InternalName": "GlomerularFiltration",
-          "DataSource": "GFR (passive reabsorption)",
+          "DataSource": "Glomerular Filtration",
           "Species": "Human",
           "Parameters": [
             {
               "Name": "GFR fraction",
-              "Value": 0.027158714,
+              "Value": 0.0240108793,
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from '2020-10-30_refit_no2C8-induction_CYP3A4-metabolism_EPHX1_' on 2020-11-04 10:58"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "rCYP450_MM",
-          "DataSource": "Cazali 2003",
-          "Molecule": "CYP2C8",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/recombinant enzyme",
-              "Value": 0.6733452272,
-              "Unit": "pmol/min/pmol rec. enzyme",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "Cazali2003"
-              }
-            },
-            {
-              "Name": "Km",
-              "Value": 757.0,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "Cazali2003"
+                "Description": "Value updated from '002-3-6_from001-5-3_IRtablet-sd_Pint-FIX_FINAL' on 2022-02-23 17:18"
               }
             }
           ]
         },
         {
           "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "Staines 2004 - mean",
+          "DataSource": "N-Glucuronidation_Staines2004",
           "Molecule": "UGT2B7",
           "Parameters": [
             {
               "Name": "In vitro Vmax for liver microsomes",
-              "Value": 0.79,
+              "Value": 3.5,
               "Unit": "pmol/min/mg mic. protein",
               "ValueOrigin": {
                 "Source": "Publication",
@@ -1685,216 +433,120 @@
             },
             {
               "Name": "Km",
-              "Value": 214.0,
+              "Value": 234.0,
               "Unit": "µmol/l",
               "ValueOrigin": {
                 "Source": "Publication",
                 "Method": "InVitro",
                 "Description": "Staines2004"
               }
-            }
-          ]
-        },
-        {
-          "InternalName": "rCYP450_MM",
-          "DataSource": "Pearce2002",
-          "Molecule": "CYP2B6",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/recombinant enzyme",
-              "Value": 0.429,
-              "Unit": "pmol/min/pmol rec. enzyme",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "Pearce2002"
-              }
             },
             {
-              "Name": "Km",
-              "Value": 420.0,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "Pearce 2002"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Test",
-          "Molecule": "CYP2B6",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 20.0,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Other",
-                "Method": "Assumption",
-                "Description": "mean of literature values of CYP3A4"
-              }
-            },
-            {
-              "Name": "Emax",
-              "Value": 17.0,
+              "Name": "kcat",
+              "Value": 0.0668699322,
+              "Unit": "1/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from '2020-10-30_refit_no2C8-induction_CYP3A4-metabolism_EPHX1_' on 2020-11-04 10:58"
+                "Description": "Value updated from '002-3-6_from001-5-3_IRtablet-sd_Pint-FIX_FINAL' on 2022-02-23 17:18"
               }
             }
           ]
         },
         {
-          "InternalName": "rCYP450_MM",
-          "DataSource": "Pearce et al - 2002 -  3-hydroxy",
-          "Molecule": "CYP3A4",
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "3-Hydroxylation_Pearce2002",
+          "Molecule": "CYP2B6",
           "Parameters": [
             {
-              "Name": "In vitro Vmax/recombinant enzyme",
-              "Value": 0.164,
-              "Unit": "pmol/min/pmol rec. enzyme",
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 49.0,
+              "Unit": "pmol/min/mg mic. protein",
               "ValueOrigin": {
                 "Source": "Publication",
                 "Method": "InVitro",
-                "Description": "Pearce2002"
+                "Description": "Pearce et al. 2002"
+              }
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 39.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Rodrigues 1999"
               }
             },
             {
               "Name": "Km",
-              "Value": 282.0,
+              "Value": 235.0,
               "Unit": "µmol/l",
               "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
+                "Source": "Unknown",
                 "Description": "Pearce 2002"
               }
             },
             {
               "Name": "kcat",
-              "Value": 0.2,
+              "Value": 0.9361790504,
               "Unit": "1/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from '2020-10-30_refit_no2C8-induction_CYP3A4-metabolism_EPHX1_' on 2020-11-04 10:58"
+                "Description": "Value updated from '002-3-6_from001-5-3_IRtablet-sd_Pint-FIX_FINAL' on 2022-02-23 17:18"
               }
             }
           ]
         },
         {
-          "InternalName": "Induction",
-          "DataSource": "Eichelbaum",
-          "Molecule": "EPHX1",
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Epoxidation_Sakamoto2013",
+          "Molecule": "CYP3A4",
           "Parameters": [
             {
-              "Name": "EC50",
-              "Value": 20.0,
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 726.0,
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Description": "Sakamoto 2013"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 808.0,
               "Unit": "µmol/l",
               "ValueOrigin": {
-                "Source": "Other",
-                "Method": "Assumption",
-                "Description": "mean of literature values for CYP3A4 induction"
+                "Source": "Unknown",
+                "Description": "Sakamoto 2013"
               }
             },
             {
-              "Name": "Emax",
-              "Value": 3.25,
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '2020-10-30_refit_no2C8-induction_CYP3A4-metabolism_EPHX1_' on 2020-11-04 10:58"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "LiverClearance",
-          "DataSource": "Pearce - hydroxy processes",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (experiment)",
-              "Value": 0.25
-            },
-            {
-              "Name": "Lipophilicity (experiment)",
-              "Value": 2.0000632456,
-              "Unit": "Log Units"
-            },
-            {
-              "Name": "Plasma clearance",
-              "Value": 0.0,
-              "Unit": "ml/min/kg"
-            },
-            {
-              "Name": "Specific clearance",
-              "Value": 0.015,
+              "Name": "kcat",
+              "Value": 5.0088763476,
               "Unit": "1/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from '2020-10-30_refit_no2C8-induction_CYP3A4-metabolism_EPHX1_' on 2020-11-04 10:58"
+                "Description": "Value updated from '002-3-6_from001-5-3_IRtablet-sd_Pint-FIX_FINAL' on 2022-02-23 17:18"
               }
             }
           ]
         },
         {
           "InternalName": "Induction",
-          "DataSource": "Poster",
-          "Molecule": "CYP2C19",
+          "DataSource": "Faucette2004",
+          "Molecule": "CYP2B6",
           "Parameters": [
             {
               "Name": "EC50",
-              "Value": 20.0,
+              "Value": 1000.0,
               "Unit": "µmol/l"
             },
             {
               "Name": "Emax",
-              "Value": 1.24
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Poster",
-          "Molecule": "CYP2C9",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 20.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "Emax",
-              "Value": 1.83
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Pelkonen2008",
-          "Molecule": "CYP2C19",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 8.0,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Pelkonen2009",
-          "Molecule": "CYP2C9",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 90.0,
-              "Unit": "µmol/l"
+              "Value": 148.7284
             }
           ]
         }
@@ -1912,267 +564,6 @@
             "Source": "Internet",
             "Description": "DrugBank"
           }
-        },
-        {
-          "Name": "Treat precipitated drug as",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ]
-    },
-    {
-      "Name": "Carbamazepine 10,11-epoxide",
-      "IsSmallMolecule": true,
-      "PlasmaProteinBindingPartner": "Albumin",
-      "Lipophilicity": [
-        {
-          "Name": "ALogPS",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 1.58,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Internet",
-                "Method": "Assumption",
-                "Description": "logP"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "ChemAxon",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 1.97,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Internet",
-                "Method": "Assumption",
-                "Description": "logP"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Optimized",
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 1.1596280108,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '2020-10-30_refit_no2C8-induction_CYP3A4-metabolism_EPHX1_' on 2020-11-04 10:58"
-              }
-            }
-          ]
-        }
-      ],
-      "FractionUnbound": [
-        {
-          "Name": "Measurement",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 46.8,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVivo",
-                "Description": "Plasma ultrafiltration - Morselli1975"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Moreslli1975 - 2",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 49.0,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVivo",
-                "Description": "Plasma ultrafiltration - Morselli1975"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Morselli1975 - 3",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 47.0,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVivo",
-                "Description": "Plasma ultrafiltration - Morselli1975"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Morselli1975 - 4",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 51.8,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVivo",
-                "Description": "Plasma ultrafiltration - Morselli1975"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Morselli1975 - 5",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 50.0,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVivo",
-                "Description": "Plasma ultrafiltration - Morselli1975"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Optimized",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 51.799999576,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification 2' on 2020-01-08 10:21"
-              }
-            }
-          ]
-        }
-      ],
-      "Solubility": [
-        {
-          "Name": "ALogPS",
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 1340.0,
-              "Unit": "mg/l",
-              "ValueOrigin": {
-                "Source": "Internet",
-                "Method": "Assumption",
-                "Description": "water solubility"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 7.0,
-              "ValueOrigin": {
-                "Source": "Internet",
-                "Method": "Assumption",
-                "Description": "water solubility"
-              }
-            }
-          ]
-        }
-      ],
-      "IntestinalPermeability": [
-        {
-          "Name": "Optimized",
-          "Parameters": [
-            {
-              "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 0.2986803943,
-              "Unit": "cm/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '2020-10-30_refit_no2C8-induction_CYP3A4-metabolism_EPHX1_' on 2020-11-04 10:58"
-              }
-            }
-          ]
-        }
-      ],
-      "PkaTypes": [],
-      "Processes": [
-        {
-          "InternalName": "GlomerularFiltration",
-          "DataSource": "GFR",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "GFR fraction",
-              "Value": 0.213471158,
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '2020-10-30_refit_no2C8-induction_CYP3A4-metabolism_EPHX1_' on 2020-11-04 10:58"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "MetabolizationIntrinsic_FirstOrder",
-          "DataSource": "Kerr 1989",
-          "Species": "Human",
-          "Molecule": "EPHX1",
-          "Metabolite": "trans-Carbamazepine-diol",
-          "Parameters": [
-            {
-              "Name": "Intrinsic clearance",
-              "Value": 0.075102,
-              "Unit": "l/min"
-            },
-            {
-              "Name": "Specific clearance",
-              "Value": 0.0101761929,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '2020-10-30_refit_no2C8-induction_CYP3A4-metabolism_EPHX1_' on 2020-11-04 10:58"
-              }
-            }
-          ]
-        }
-      ],
-      "CalculationMethods": [
-        "Cellular partition coefficient method - PK-Sim Standard",
-        "Cellular permeability - PK-Sim Standard"
-      ],
-      "Parameters": [
-        {
-          "Name": "Molecular weight",
-          "Value": 252.268,
-          "Unit": "g/mol"
         }
       ]
     },
@@ -2181,48 +572,16 @@
       "IsSmallMolecule": true,
       "Lipophilicity": [
         {
-          "Name": "Prediction",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.37,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Internet",
-                "Method": "Other",
-                "Description": "Predicted by ChemAxon"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Measurement",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 1.26,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "PMID: 6626413"
-              }
-            }
-          ]
-        },
-        {
           "Name": "Optimized",
           "Parameters": [
             {
               "Name": "Lipophilicity",
-              "Value": 2.045376344,
+              "Value": 2.0799268917,
               "Unit": "Log Units",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'IV+oral with P_int & P_mucosa (int-cell) 4' on 2018-12-03 15:09"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -2267,12 +626,12 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 0.6458468231,
+              "Value": 7.6146060669,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'IV+oral with P_int & P_mucosa (int-cell) 4' on 2018-12-03 15:09"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -2296,48 +655,31 @@
             {
               "Name": "In vitro Vmax for liver microsomes",
               "Value": 0.131,
-              "Unit": "nmol/min/mg mic. protein"
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
             },
             {
               "Name": "Km",
               "Value": 269.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "kcat",
-              "Value": 0.7308286264,
-              "Unit": "1/min",
+              "Unit": "µmol/l",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'IV+oral with P_int & P_mucosa (int-cell) 4' on 2018-12-03 15:09"
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
               }
-            }
-          ]
-        },
-        {
-          "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "4-OH pathway",
-          "Molecule": "CYP3A4 1",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax for liver microsomes",
-              "Value": 2.23,
-              "Unit": "nmol/min/mg mic. protein"
-            },
-            {
-              "Name": "Km",
-              "Value": 704.0,
-              "Unit": "µmol/l"
             },
             {
               "Name": "kcat",
-              "Value": 12.4408231822,
+              "Value": 0.8066945978,
               "Unit": "1/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'IV+oral with P_int & P_mucosa (int-cell) 4' on 2018-12-03 15:09"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -2349,11 +691,48 @@
           "Parameters": [
             {
               "Name": "GFR fraction",
-              "Value": 0.523773347,
+              "Value": 0.5461456402,
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'IV+oral with P_int & P_mucosa (int-cell) 4' on 2018-12-03 15:09"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "4-OH pathway",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 2.23,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 704.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 13.7322820855,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -2366,10 +745,7 @@
       "Parameters": [
         {
           "Name": "Cl",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Value": 1.0
         },
         {
           "Name": "Molecular weight",
@@ -2386,12 +762,12 @@
       "Parameters": [
         {
           "Name": "Dissolution time (50% dissolved)",
-          "Value": 200.0,
+          "Value": 109.3089775422,
           "Unit": "min",
           "ValueOrigin": {
             "Source": "ParameterIdentification",
             "Method": "ParameterIdentification",
-            "Description": "Value updated from '2020-10-30_refit_no2C8-induction_CYP3A4-metabolism_EPHX1_' on 2020-11-04 10:58"
+            "Description": "Value updated from '002-3-6_from001-5-3_IRtablet-sd_Pint-FIX_FINAL' on 2022-02-23 17:18"
           }
         },
         {
@@ -2401,11 +777,11 @@
         },
         {
           "Name": "Dissolution shape",
-          "Value": 0.74,
+          "Value": 0.6890123758,
           "ValueOrigin": {
             "Source": "ParameterIdentification",
             "Method": "ParameterIdentification",
-            "Description": "Value updated from '2020-10-30_refit_no2C8-induction_CYP3A4-metabolism_EPHX1_' on 2020-11-04 10:58"
+            "Description": "Value updated from '002-3-6_from001-5-3_IRtablet-sd_Pint-FIX_FINAL' on 2022-02-23 17:18"
           }
         },
         {
@@ -2415,17 +791,17 @@
       ]
     },
     {
-      "Name": "ALP_tablet_Solanax",
+      "Name": "Alprazolam_Solanax",
       "FormulationType": "Formulation_Tablet_Weibull",
       "Parameters": [
         {
           "Name": "Dissolution time (50% dissolved)",
-          "Value": 33.7210488258,
+          "Value": 35.8519725483,
           "Unit": "min",
           "ValueOrigin": {
             "Source": "ParameterIdentification",
             "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 16' on 2020-03-11 11:58"
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
@@ -2435,11 +811,11 @@
         },
         {
           "Name": "Dissolution shape",
-          "Value": 0.7244684051,
+          "Value": 0.92,
           "ValueOrigin": {
             "Source": "ParameterIdentification",
             "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 16' on 2020-03-11 11:58"
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
           }
         },
         {
@@ -2451,7 +827,79 @@
   ],
   "Protocols": [
     {
-      "Name": "Furukori 1998 - Midazolam - 0.8mg",
+      "Name": "Furukori1998_TreatmentPhase_Carbamazepine",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 100.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 31.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 8.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Furukori1998_ControlPhase_Alprazolam",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 0.8,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Furukori1998_TreatmentPhase_Alprazolam",
       "DosingInterval": "Single",
       "Schemas": [
         {
@@ -2484,53 +932,29 @@
             {
               "Name": "Start time",
               "Value": 170.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
             }
           ]
         }
       ],
       "TimeUnit": "h"
-    },
-    {
-      "Name": "Furukori 1998 - CBZ - D1-D10-100mg-tid",
-      "ApplicationType": "Oral",
-      "DosingInterval": "DI_8_8_8",
-      "Parameters": [
-        {
-          "Name": "Start time",
-          "Value": 0.0,
-          "Unit": "h"
-        },
-        {
-          "Name": "InputDose",
-          "Value": 100.0,
-          "Unit": "mg"
-        },
-        {
-          "Name": "End time",
-          "Value": 240.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Name": "Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ]
     }
   ],
   "Simulations": [
     {
-      "Name": "Furukori1998 Alprazolam control",
+      "Name": "Furukori1998_ControlPhase",
       "Model": "4Comp",
       "ObservedData": [
-        "Furukori1998 - Alprazolam 0.8 mg sd control - Alprazolam.Human.Peripheral Venous Blood.Plasma"
+        "Furukori 1998 - treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -2543,11 +967,8 @@
             },
             {
               "Name": "End time",
-              "Value": 230.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
+              "Value": 2.0,
+              "Unit": "h"
             },
             {
               "Name": "Resolution",
@@ -2555,13 +976,211 @@
               "Unit": "pts/h"
             }
           ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 48.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Applications|Furukori 1998 - Midazolam - 0.8mg|ALP_tablet_Solanax|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Furukori1998_ControlPhase_Alprazolam|Alprazolam_Solanax|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
         }
       ],
       "OutputSelections": [
@@ -2578,10 +1197,6 @@
           "Alternatives": [
             {
               "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_LIPOPHILICITY"
-            },
-            {
-              "AlternativeName": "Calculated",
               "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
             }
           ],
@@ -2591,23 +1206,14 @@
               "MoleculeName": "CYP3A4"
             },
             {
-              "Name": "CYP3A4 1-4-OH pathway",
+              "Name": "CYP3A4-4-OH pathway",
               "MoleculeName": "CYP3A4"
             },
             {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP2C8"
+              "MoleculeName": "CYP2B6"
             },
             {
               "MoleculeName": "UGT2B7"
-            },
-            {
-              "MoleculeName": "EPHX1"
-            },
-            {
-              "MoleculeName": "CYP2B6"
             },
             {
               "Name": "Glomerular Filtration-GFR",
@@ -2615,10 +1221,603 @@
             }
           ],
           "Protocol": {
-            "Name": "Furukori 1998 - Midazolam - 0.8mg",
+            "Name": "Furukori1998_ControlPhase_Alprazolam",
             "Formulations": [
               {
-                "Name": "ALP_tablet_Solanax",
+                "Name": "Alprazolam_Solanax",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Furukori1998_ControlPhase|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Furukori 1998 - treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Furukori 1998 - treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)|Time",
+              "Y": "Furukori 1998 - treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Carbamazepine-Alprazolam-DDI\nFurukori1998_ControlPhase\n2022-05-05 16:40"
+        }
+      ]
+    },
+    {
+      "Name": "Furukori1998_TreatmentPhase",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Furukori 1998 - treatment with carbamazepine - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 8.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 170.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 170.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 172.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 172.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 196.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Alprazolam|Alprazolam_Solanax|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_23|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_24|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_25|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_26|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_27|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_28|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_29|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_30|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_31|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Furukori1998_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Furukori1998",
+      "Compounds": [
+        {
+          "Name": "Alprazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Furukori1998_TreatmentPhase_Alprazolam",
+            "Formulations": [
+              {
+                "Name": "Alprazolam_Solanax",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Carbamazepine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "IR tablet (FaHIF)",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Epoxidation_Sakamoto2013",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2B6-3-Hydroxylation_Pearce2002",
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "Name": "UGT2B7-N-Glucuronidation_Staines2004",
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "Name": "Glomerular Filtration-Glomerular Filtration",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Furukori1998_TreatmentPhase_Carbamazepine",
+            "Formulations": [
+              {
+                "Name": "CBZ_tabletIR_fasted (Tegretol)",
                 "Key": "Formulation"
               }
             ]
@@ -2636,507 +1835,65 @@
               "GridLines": false,
               "Visible": true,
               "Min": 170.0,
-              "Max": 230.0,
+              "Max": 196.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             }
           ],
           "Curves": [
             {
-              "Name": "Furukori1998 Alprazolam control-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Furukori1998 Alprazolam control|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "Y": "Furukori1998_TreatmentPhase|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "#C000C0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "Furukori1998_Alprazolam_control.Alprazolam.Human.Peripheral Venous Blood.Plasma-Alprazolam-Peripheral Venous Blood-Plasma-Alprazolam_control ",
-              "X": "Furukori1998 - Alprazolam 0.8 mg sd control - Alprazolam.Human.Peripheral Venous Blood.Plasma|time ",
-              "Y": "Furukori1998 - Alprazolam 0.8 mg sd control - Alprazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|Alprazolam_control ",
+              "Name": "Furukori 1998 - treatment with carbamazepine - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Furukori 1998 - treatment with carbamazepine - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)|Time",
+              "Y": "Furukori 1998 - treatment with carbamazepine - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "#C000C0",
-                "LegendIndex": 2,
+                "Color": "#0000FF",
+                "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Carbamazepine-Alprazolam-DDI\nFurukori1998_Alprazolam_CONTROL\n2021-01-07 14:34"
-        }
-      ]
-    },
-    {
-      "Name": "Furukori1998 Alprazolam + Carbamazepine 100mg tid",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Furukori1998 - Alprazolam 0.8 mg sd + Carbamazepine - Alprazolam.Human.Peripheral Venous Blood.Plasma"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 300.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_21|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_22|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_23|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_24|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_25|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_26|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_27|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_28|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_29|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_30|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - CBZ - D1-D10-100mg-tid|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Furukori 1998 - Midazolam - 0.8mg|ALP_tablet_Solanax|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Carbamazepine 10,11-epoxide|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Furukori1998",
-      "Compounds": [
-        {
-          "Name": "Carbamazepine",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Clarysse 2011 - FaHIF",
-              "GroupName": "COMPOUND_SOLUBILITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_LIPOPHILICITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_FRACTION_UNBOUND"
-            },
-            {
-              "AlternativeName": "Literature Lennernaes2007",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Huang et al 2004 - CBZ-E",
-              "MoleculeName": "CYP3A4",
-              "MetaboliteName": "Carbamazepine 10,11-epoxide"
-            },
-            {
-              "Name": "CYP3A4-Pearce et al - 2002 -  3-hydroxy",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "Name": "CYP2C8-Cazali 2003",
-              "MoleculeName": "CYP2C8",
-              "MetaboliteName": "Carbamazepine 10,11-epoxide"
-            },
-            {
-              "Name": "UGT2B7-Staines 2004 - mean",
-              "MoleculeName": "UGT2B7"
-            },
-            {
-              "MoleculeName": "EPHX1"
-            },
-            {
-              "Name": "CYP2B6-Pearce2002",
-              "MoleculeName": "CYP2B6"
-            },
-            {
-              "Name": "Total Hepatic Clearance-Pearce - hydroxy processes",
-              "SystemicProcessType": "Hepatic"
-            },
-            {
-              "MoleculeName": "ABCB1"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "MoleculeName": "OATP1B3"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR (passive reabsorption)",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Furukori 1998 - CBZ - D1-D10-100mg-tid",
-            "Formulations": [
-              {
-                "Name": "CBZ_tabletIR_fasted (Tegretol)",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Carbamazepine 10,11-epoxide",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_LIPOPHILICITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_FRACTION_UNBOUND"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP2C8"
-            },
-            {
-              "MoleculeName": "UGT2B7"
-            },
-            {
-              "Name": "EPHX1-Kerr 1989",
-              "MoleculeName": "EPHX1"
-            },
-            {
-              "MoleculeName": "CYP2B6"
-            },
-            {
-              "MoleculeName": "ABCB1"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "MoleculeName": "OATP1B3"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "Alprazolam",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_LIPOPHILICITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-alpha-OH pathway",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "CYP3A4 1-4-OH pathway",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP2C8"
-            },
-            {
-              "MoleculeName": "UGT2B7"
-            },
-            {
-              "MoleculeName": "EPHX1"
-            },
-            {
-              "MoleculeName": "CYP2B6"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Furukori 1998 - Midazolam - 0.8mg",
-            "Formulations": [
-              {
-                "Name": "ALP_tablet_Solanax",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 168.0,
-              "Max": 210.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Furukori1998_Alprazolam_CBZ.Alprazolam.Human.Peripheral Venous Blood.Plasma-Alprazolam-Peripheral Venous Blood-Plasma-Alprazolam_CBZ ",
-              "X": "Furukori1998 - Alprazolam 0.8 mg sd + Carbamazepine - Alprazolam.Human.Peripheral Venous Blood.Plasma|time ",
-              "Y": "Furukori1998 - Alprazolam 0.8 mg sd + Carbamazepine - Alprazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|Alprazolam_CBZ ",
-              "CurveOptions": {
-                "Color": "#CCC1D9",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Furukori1998 Alprazolam + Carbamazepine 100mg tid-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Furukori1998 Alprazolam + Carbamazepine 100mg tid|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#CCC1D9",
-                "LegendIndex": 3
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "OriginText": "Carbamazepine-Alprazolam-DDI\nFurukori1998_Alprazolam_0.8mg-tab-sd_DDI\n2021-01-07 14:25"
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Carbamazepine-Alprazolam-DDI\nFurukori1998_TreatmentPhase\n2022-05-05 16:43"
         }
       ],
       "Interactions": [
         {
-          "Name": "EPHX1-Eichelbaum",
-          "MoleculeName": "EPHX1",
-          "CompoundName": "Carbamazepine"
-        },
-        {
-          "Name": "CYP2B6-Test",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Carbamazepine"
-        },
-        {
-          "Name": "CYP3A4-mean of literature",
+          "Name": "CYP3A4-DMPK",
           "MoleculeName": "CYP3A4",
+          "CompoundName": "Carbamazepine"
+        },
+        {
+          "Name": "CYP2B6-Faucette2004",
+          "MoleculeName": "CYP2B6",
           "CompoundName": "Carbamazepine"
         }
       ]
@@ -3144,8 +1901,40 @@
   ],
   "ObservedData": [
     {
-      "Name": "Furukori1998 - Alprazolam 0.8 mg sd control - Alprazolam.Human.Peripheral Venous Blood.Plasma",
+      "Name": "Furukori 1998 - treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)",
       "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1456.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Furukori 1998"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/9536449/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "treatment with placebo"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 7.0
+        },
         {
           "Name": "Molecule",
           "Value": "Alprazolam"
@@ -3161,74 +1950,129 @@
         {
           "Name": "Compartment",
           "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.8 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "tablet formulation (Solanax, Pharmacia & Upjohn, Tokyo, Japan)"
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
         }
       ],
       "Columns": [
         {
-          "Name": "Alprazolam_control ",
+          "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Alprazolam_control ",
-            "Path": "Furukori1998 - Alprazolam 0.8 mg sd control - Alprazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|Alprazolam_control "
+            "Name": "Avg",
+            "Path": "Furukori 1998 - treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2020-03-11T11:33:33.7183583+01:00",
-            "Source": "DDI_obs.Furukori1998_Alprazolam_control.Alprazolam_control [ng/mL]",
-            "MolWeight": 308.765
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 308.77,
+            "LLOQ": 5E-10
           },
           "Values": [
-            0.0059064,
-            0.0095721,
-            0.0104754,
-            0.0099771,
-            0.009601801,
-            0.00782090053,
-            0.0079837,
-            0.00685060024,
-            0.0060019996,
-            0.00381580018,
-            0.0022165,
-            0.001414
+            5.822903,
+            9.514225,
+            10.41486,
+            9.89026,
+            9.514225,
+            7.83794355,
+            7.9398737,
+            6.843563,
+            5.975337,
+            3.801568,
+            2.209445,
+            1.423951
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
-        "Name": "time ",
+        "Name": "Time",
         "QuantityInfo": {
-          "Name": "time ",
-          "Path": "Furukori1998 - Alprazolam 0.8 mg sd control - Alprazolam.Human.Peripheral Venous Blood.Plasma|time ",
+          "Name": "Time",
+          "Path": "Furukori 1998 - treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2020-03-11T11:33:33.7183583+01:00",
-          "Source": "DDI_obs.Furukori1998_Alprazolam_control.time [h]"
+          "Date": "0001-01-01T00:00:00"
         },
         "Values": [
-          170.7,
-          170.909,
-          172.095,
-          173.040009,
-          174.221,
-          175.964,
-          178.047012,
-          180.075,
-          182.199,
-          194.153,
-          205.961,
-          217.96199
+          0.5,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          24.0,
+          36.0,
+          48.0
         ],
         "Dimension": "Time",
         "Unit": "h"
       }
     },
     {
-      "Name": "Furukori1998 - Alprazolam 0.8 mg sd + Carbamazepine - Alprazolam.Human.Peripheral Venous Blood.Plasma",
+      "Name": "Furukori 1998 - treatment with carbamazepine - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)",
       "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1457.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Furukori 1998"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/9536449/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "treatment with carbamazepine"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 7.0
+        },
         {
           "Name": "Molecule",
           "Value": "Alprazolam"
@@ -3244,154 +2088,97 @@
         {
           "Name": "Compartment",
           "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.8 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 170.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "tablet formulation (Solanax, Pharmacia & Upjohn, Tokyo, Japan)"
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
         }
       ],
       "Columns": [
         {
-          "Name": "Alprazolam_CBZ ",
+          "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Alprazolam_CBZ ",
-            "Path": "Furukori1998 - Alprazolam 0.8 mg sd + Carbamazepine - Alprazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|Alprazolam_CBZ "
+            "Name": "Avg",
+            "Path": "Furukori 1998 - treatment with carbamazepine - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2020-03-11T11:33:33.7183583+01:00",
-            "Source": "DDI_obs.Furukori1998_Alprazolam_CBZ.Alprazolam_CBZ [ng/mL]",
-            "MolWeight": 308.765
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 308.77,
+            "LLOQ": 5E-10
           },
           "Values": [
-            0.0130400006,
-            0.0102608,
-            0.0087748,
-            0.008563,
-            0.0069996,
-            0.0053558,
-            0.0049605,
-            0.0038754,
-            0.0030067,
-            0.0010087901
+            12.97321,
+            10.21495,
+            8.691475,
+            8.524647,
+            6.977493,
+            5.388539,
+            4.922561,
+            3.901086,
+            2.993309,
+            1.017649
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
-        "Name": "time ",
+        "Name": "Time",
         "QuantityInfo": {
-          "Name": "time ",
-          "Path": "Furukori1998 - Alprazolam 0.8 mg sd + Carbamazepine - Alprazolam.Human.Peripheral Venous Blood.Plasma|time ",
+          "Name": "Time",
+          "Path": "Furukori 1998 - treatment with carbamazepine - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
           "AuxiliaryType": "Undefined",
-          "Date": "2020-03-11T11:33:33.7183583+01:00",
-          "Source": "DDI_obs.Furukori1998_Alprazolam_CBZ.time [h]"
+          "Date": "0001-01-01T00:00:00"
         },
         "Values": [
-          170.637,
-          170.864,
-          172.041,
-          173.034,
-          174.208008,
-          175.948,
-          178.075,
-          180.099014,
-          182.17099,
-          194.146
+          170.5,
+          171.0,
+          172.0,
+          173.0,
+          174.0,
+          176.0,
+          178.0,
+          180.0,
+          182.0,
+          194.0
         ],
         "Dimension": "Time",
         "Unit": "h"
       }
     }
   ],
-  "SimulationComparisons": [
+  "ObservedDataClassifications": [
     {
-      "Name": "Furukori1998 - Carbamazepine-Alprazolam DDI",
-      "Simulations": [
-        "Furukori1998 Alprazolam control",
-        "Furukori1998 Alprazolam + Carbamazepine 100mg tid"
-      ],
-      "IndividualComparison": {
-        "Axes": [
-          {
-            "Unit": "h",
-            "Dimension": "Time",
-            "Type": "X",
-            "GridLines": false,
-            "Visible": true,
-            "Min": 170.0,
-            "Max": 230.0,
-            "DefaultColor": "#FFFFFF",
-            "DefaultLineStyle": "None",
-            "Scaling": "Linear",
-            "NumberMode": "Normal"
-          },
-          {
-            "Unit": "µmol/l",
-            "Dimension": "Concentration (molar)",
-            "Type": "Y",
-            "GridLines": false,
-            "Visible": true,
-            "DefaultColor": "#FFFFFF",
-            "DefaultLineStyle": "Solid",
-            "Scaling": "Linear",
-            "NumberMode": "Normal"
-          }
-        ],
-        "Curves": [
-          {
-            "Name": "Furukori1998_Alprazolam_CONTROL-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
-            "X": "Time",
-            "Y": "Furukori1998 Alprazolam control|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-            "CurveOptions": {
-              "Color": "#C000C0",
-              "LegendIndex": 1
-            }
-          },
-          {
-            "Name": "Furukori1998_Alprazolam_DDI-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
-            "X": "Time",
-            "Y": "Furukori1998 Alprazolam + Carbamazepine 100mg tid|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-            "CurveOptions": {
-              "Color": "#CCC1D9",
-              "LegendIndex": 3
-            }
-          },
-          {
-            "Name": "Furukori1998_Alprazolam_DDI - Alprazolam.Human.Peripheral Venous Blood.Plasma-Alprazolam-Peripheral Venous Blood-Plasma-Alprazolam_CBZ ",
-            "X": "Furukori1998 - Alprazolam 0.8 mg sd + Carbamazepine - Alprazolam.Human.Peripheral Venous Blood.Plasma|time ",
-            "Y": "Furukori1998 - Alprazolam 0.8 mg sd + Carbamazepine - Alprazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|Alprazolam_CBZ ",
-            "CurveOptions": {
-              "Color": "#CCC1D9",
-              "LegendIndex": 4,
-              "LineStyle": "None",
-              "Symbol": "Circle"
-            }
-          },
-          {
-            "Name": "Furukori1998_Alprazolam_control - Alprazolam.Human.Peripheral Venous Blood.Plasma-Alprazolam-Peripheral Venous Blood-Plasma-Alprazolam_control ",
-            "X": "Furukori1998 - Alprazolam 0.8 mg sd control - Alprazolam.Human.Peripheral Venous Blood.Plasma|time ",
-            "Y": "Furukori1998 - Alprazolam 0.8 mg sd control - Alprazolam.Human.Peripheral Venous Blood.Plasma|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|Alprazolam_control ",
-            "CurveOptions": {
-              "Color": "#C000C0",
-              "LegendIndex": 5,
-              "LineStyle": "None",
-              "Symbol": "Circle"
-            }
-          }
-        ],
-        "Name": "Furukori1998 - Carbamazepine-Alprazolam DDI"
-      }
-    }
-  ],
-  "SimulationClassifications": [
-    {
-      "Name": "Alprazolam",
+      "Name": "Furukori 1998",
       "Classifiables": [
-        "Furukori1998 Alprazolam control",
-        "Furukori1998 Alprazolam + Carbamazepine 100mg tid"
+        "Furukori 1998 - treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)",
+        "Furukori 1998 - treatment with carbamazepine - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=7)"
       ]
     }
   ]
