@@ -8,7 +8,7 @@ The repository contains a [PK-Sim snapshot (*.json) file](https://docs.open-syst
 The reference model repositories can be found here:
 
 - [Alprazolam OSP PBPK model](https://github.com/Open-Systems-Pharmacology/Alprazolam-Model)
-- [Carbamazepine PBPK model](https://github.com/Open-Systems-Pharmacology/Carbamazepine-Model)
+- [Carbamazepine OSP PBPK model](https://github.com/Open-Systems-Pharmacology/Carbamazepine-Model)
 
 ## Code of conduct
 
